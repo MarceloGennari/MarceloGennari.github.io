@@ -11,35 +11,23 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+DPhil in Engineering Science, University of Oxford, 2018-2022<br>
+M.Eng in Engineering Science, University of Oxford, 2014-2018
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**2021 - Present: Senior Researcher - Microsoft**<br>
+I work on compressing neural networks for quick computation on edge devices - specifically I have been working on compressing Language Models, and Diffusion based networks for both language and image generation
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**July - December 2021: Research Intern - Microsoft**<br>
+I worked on compressing especifically superresolution models for cheap computation on edge devices - this included using a pipeline consisting of Distillation, Pruning, and Quantization
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+**July 2019: Graduate Engineer - Omnitek (now sold to Intel)**<br>
+I worked on Quantizing Neural Networks for efficient computation on FPGAs
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Python, PyTorch, C++
 
 Publications
 ======
@@ -47,18 +35,3 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
